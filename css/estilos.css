@@ -74,6 +74,12 @@ body {
 	color: #333333;
 }
 
+.busca
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
 .busca input {
 	vertical-align: middle;
 }
@@ -94,43 +100,51 @@ body {
 
 .novidades {
 	float: left;
-	background-color: #f5dcdc; 
+	
+	background: #f5dcdc;
+	background: linear-gradient(#f5dcdc, #bebef4);
 }
 
 .mais-vendidos {
 	float: right;
-	background-color: #dcdcf5
+	
+	background: #dcdcf5;
+	background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
 .painel {
 	margin: 10px 0;
 	padding: 10px;
 	width: 445px;
-}
-
-.painel li {
-	display: inline-block;
-	width: 140px;
-	vertical-align: top;
 	
-	margin: 2px;
-	padding-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999, 1px 1px 4px #999;
 }
 
-.painel h2 {
-	font-size: 24px;
-	font-weight: bold;
-	text-transform: uppercase;
-	
-	margin-bottom: 10px; 
-}
+	.painel li {
+		display: inline-block;
+		width: 140px;
+		vertical-align: top;
+		
+		margin: 2px;
+		padding-bottom: 10px;
+	}
 
-.painel a{
-	text-decoration: none;
-	font-size: 14px;
-	color: #333;
-	text-align: center;
-}
+	.painel h2 {
+		font-size: 24px;
+		font-weight: bold;
+		text-transform: uppercase;
+		
+		margin-bottom: 10px; 
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	.painel a{
+		text-decoration: none;
+		font-size: 14px;
+		color: #333;
+		text-align: center;
+	}
 
 footer {
 	background: url(../img/fundo-rodape.png);
