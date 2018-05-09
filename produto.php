@@ -13,17 +13,17 @@
           <fieldset class="cores">
             <legend>Escolha a cor:</legend>
 
-            <input type="radio" name="cor" value="Verde" id="verde" checked>
+            <input type="radio" name="cor" value="verde" id="verde" checked>
             <label for="verde">
               <img src="img/produtos/foto2-verde.png" alt="verde">
             </label>
 
-            <input type="radio" name="cor" value="Rosa" id="rosa">
+            <input type="radio" name="cor" value="rosa" id="rosa">
             <label for="rosa">
               <img src="img/produtos/foto2-rosa.png" alt="rosa">
             </label>
 
-            <input type="radio" name="cor" value="Azul" id="azul">
+            <input type="radio" name="cor" value="azul" id="azul">
             <label for="azul">
               <img src="img/produtos/foto2-azul.png" alt="azul">
             </label>
@@ -37,6 +37,9 @@
             name="tamanho" id="tamanho">
           </fieldset>
 
+          <input type="hidden" name="id" value="1">
+		  <input type="hidden" name="nome" value="Fuzzy Cardigan">
+		  <input type="hidden" name="preco" value="129,00">
           <input type="submit" class="comprar" value="Comprar">
         </form>
       </div>
