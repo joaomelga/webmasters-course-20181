@@ -43,8 +43,20 @@
       					  <dd><?php print $_GET['tamanho'] ?></dd>
 
       					  <dt>Preço</dt>
-      					  <dd><?php print $_GET['preco'] ?></dd>
+      					  <dd id="preco">R$ <?php print $_GET['preco'] ?></dd>
       					</dl>
+
+                <div class="form-group">
+                  <label for="qt">Quantidade</label>
+                  <input id="qt" type="number" name="" value="1" min="1" max="108" step="1">
+                </div>
+
+                <div class="form-group">
+                  <label for="total">Total</label>
+                  <output id="total" clas="form-control">
+                    <?php print $_GET['preco'] ?>
+                  </output>
+                </div>
       				</div>
       			</div>
       		</div>
@@ -111,6 +123,8 @@
       </div>
 
       <script type="text/javascript" src="js/converteMoeda.js"></script>
-      <script type="text/javascript" src="js/testaConversao.js"></script>    
+      <script type="text/javascript" src="js/testaConversao.js"></script>
+
+      <script type="text/javascript" src="js/total.js"></script>
   </body>
 </html>
