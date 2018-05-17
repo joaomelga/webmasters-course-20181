@@ -24,6 +24,7 @@
 			<figcaption>Centro de distribuição da Mirror Fashion</figcaption>
 		</figure>
 		
+		João Teste 
 		
 		<p>
 			
