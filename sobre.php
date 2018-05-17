@@ -24,16 +24,13 @@
 			<figcaption>Centro de distribuição da Mirror Fashion</figcaption>
 		</figure>
 		
-		João Teste 
 		João Teste  adawdawdawdaw
 		
 		<p>
 			
 
-			Compre suas roupas e acessórios na Mirror Fashion. Acesse nossa loja ou entre em contato 
 			Compre suas e acessórios na Mirror Fashion. Acesse nossa loja ou entre em contato 
 			se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.
-		
 		</p>dawdawdawd
 		ca\efwe wG WEFfW
 		<h2 id="historia">História</h2>
